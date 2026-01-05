@@ -9,6 +9,17 @@ Smart wearable collar for livestock health monitoring and tracking.
 - Cloud-based visualization using Blynk IoT
 - Portable and low-power wearable design
 
+## 🧠 System Architecture
+
+The system is built around an ESP32 NodeMCU which acts as the main controller.  
+It collects data from multiple sensors, processes it, and transmits it to the cloud.
+
+**Data Flow:**
+1. Sensors (Temperature, Motion, GPS) collect real-time data
+2. ESP32 processes and filters the sensor data
+3. Data is transmitted via Wi-Fi to Blynk IoT Cloud
+4. User monitors live data through the Blynk mobile application
+
 ## 📌 Overview
 This project uses an ESP32 NodeMCU to monitor animal health parameters like body temperature, activity, and location.  
 The data is displayed in real time using the Blynk IoT platform.
