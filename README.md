@@ -2,6 +2,13 @@
 
 Smart wearable collar for livestock health monitoring and tracking.
 
+## 🚀 Features
+- Real-time body temperature monitoring
+- Activity tracking using motion sensor
+- GPS-based location tracking
+- Cloud-based visualization using Blynk IoT
+- Portable and low-power wearable design
+
 ## 📌 Overview
 This project uses an ESP32 NodeMCU to monitor animal health parameters like body temperature, activity, and location.  
 The data is displayed in real time using the Blynk IoT platform.
