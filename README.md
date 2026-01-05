@@ -20,6 +20,16 @@ It collects data from multiple sensors, processes it, and transmits it to the cl
 3. Data is transmitted via Wi-Fi to Blynk IoT Cloud
 4. User monitors live data through the Blynk mobile application
 
+## ⚙️ Working Principle
+
+1. The ESP32 NodeMCU powers up and initializes all connected sensors.
+2. The DS18B20 sensor measures the animal’s body temperature.
+3. The MPU-6050 tracks movement and activity to analyze animal behavior.
+4. The NEO-6M GPS module provides real-time location coordinates.
+5. All sensor data is processed by the ESP32 and sent to the Blynk IoT cloud via Wi-Fi.
+6. The farmer can monitor temperature, activity, and location through the Blynk mobile app.
+7. If Wi-Fi is unavailable, data is stored locally on the microSD card and uploaded once connectivity is restored.
+
 ## 📌 Overview
 This project uses an ESP32 NodeMCU to monitor animal health parameters like body temperature, activity, and location.  
 The data is displayed in real time using the Blynk IoT platform.
