@@ -46,6 +46,15 @@ The data is displayed in real time using the Blynk IoT platform.
 - Arduino IDE
 - Blynk IoT Platform
 
+## 🚀 Future Scope
+
+- Integration of additional health sensors such as heart rate and respiration sensors
+- AI-based anomaly detection to identify early signs of illness
+- GSM / LoRaWAN connectivity for remote areas without Wi-Fi
+- Solar-powered charging for long-term outdoor deployment
+- Mobile alerts and notifications for abnormal health conditions
+- Data analytics dashboard for long-term health trend analysis
+
 ## 📂 Repository Structure
 - hardware/ → Circuit & block diagrams  
 - firmware/ → ESP32 source code  
